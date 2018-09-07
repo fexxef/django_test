@@ -1,22 +1,4 @@
 #!/usr/bin/env python
-#
-# This python file contains utility scripts to manage Django translations.
-# It has to be run inside the django git root directory.
-#
-# The following commands are available:
-#
-# * update_catalogs: check for new strings in core and contrib catalogs, and
-#                    output how much strings are new/changed.
-#
-# * lang_stats: output statistics for each catalog/language combination
-#
-# * fetch: fetch translations from transifex.com
-#
-# Each command support the --languages and --resources options to limit their
-# operation to the specified language or resource. For example, to get stats
-# for Spanish in contrib.admin, run:
-#
-#  $ python scripts/manage_translations.py lang_stats --language=es --resources=admin
 
 import os
 from argparse import ArgumentParser
