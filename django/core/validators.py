@@ -24,6 +24,7 @@ def _lazy_re_compile(regex, flags=0):
             return regex
     return SimpleLazyObject(_compile)
 
+#foo bar
 
 @deconstructible
 class RegexValidator:
